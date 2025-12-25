@@ -10,7 +10,6 @@ from .mp import (
     ZmqPushQueue,
     ZmqSubQueue,
 )
-from .registry import Registry
 from .torch_utils import torch_dtype
 
 __all__ = [
@@ -26,7 +25,6 @@ __all__ = [
     "UNSET",
     "Unset",
     "torch_dtype",
-    "Registry",
     "ZmqPushQueue",
     "ZmqPullQueue",
     "ZmqPubQueue",
